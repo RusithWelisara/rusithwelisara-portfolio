@@ -6,17 +6,20 @@ const About = () => {
     <div className="about section">
       <SEO
         title="About"
-        description="Learn more about Rusith Heshan, a 16-year-old developer focused on AI, robotics, embedded systems, and large-scale platform design. Discover his philosophy and future goals."
+        description="Learn more about Rusith Welisara, a 16-year-old developer focused on AI, robotics, embedded systems, and large-scale platform design. Discover his philosophy and future goals."
         url="/about"
       />
       <div className="container">
         <h2 className="section-title">About</h2>
 
         <div className="about-content">
+          <div className="about-profile">
+            <img src="/image.png" alt="Rusith Welisara" className="about-photo" />
+          </div>
           <div className="about-section">
             <h3 className="subsection-title">Who I Am</h3>
             <p className="about-text">
-              I'm <span className="highlight-name">Rusith Heshan</span>, a 16-year-old developer focused on AI,
+              I'm <span className="highlight-name">Rusith Welisara</span>, a 16-year-old developer focused on AI,
               robotics, embedded systems, and large-scale platform design.
             </p>
             <p className="about-text">

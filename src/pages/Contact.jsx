@@ -10,7 +10,7 @@ const Contact = () => {
     <div className="contact section">
       <SEO
         title="Contact"
-        description="Get in touch with Rusith Heshan for collaborations in AI, robotics, and platform architecture. Let's build something incredible together."
+        description="Get in touch with Rusith Welisara for collaborations in AI, robotics, and platform architecture. Let's build something incredible together."
         url="/contact"
       />
       <div className="container">

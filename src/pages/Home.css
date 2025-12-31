@@ -269,6 +269,43 @@
   }
 }
 
+.profile-photo {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 30px;
+  z-index: 3;
+  position: relative;
+  box-shadow: 
+    0 0 30px rgba(0, 255, 255, 0.2),
+    0 0 60px rgba(0, 255, 255, 0.1);
+  border: 2px solid rgba(0, 255, 255, 0.3);
+  animation: floatProfile 6s ease-in-out infinite;
+  transition: all 0.5s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.02);
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 50px rgba(0, 255, 255, 0.4);
+}
+
+@keyframes floatProfile {
+  0%, 100% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-20px) rotate(1deg);
+  }
+}
+
+@media (max-width: 968px) {
+  .profile-photo {
+    width: 280px;
+    height: 280px;
+  }
+}
+
 @media (max-width: 568px) {
   .hero-title {
     font-size: 2rem;

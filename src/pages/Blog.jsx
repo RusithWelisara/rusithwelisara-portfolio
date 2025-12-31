@@ -41,7 +41,7 @@ const Blog = () => {
     <div className="blog section">
       <SEO
         title="Blog"
-        description="Insights from Rusith Heshan on AI experiments, robotics devlogs, system architecture, and product design philosophy."
+        description="Insights from Rusith Welisara on AI experiments, robotics devlogs, system architecture, and product design philosophy."
         url="/blog"
       />
       <div className="container">

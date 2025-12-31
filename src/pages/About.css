@@ -9,6 +9,22 @@
   gap: 3rem;
 }
 
+.about-profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease-out;
+}
+
+.about-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--accent-cyan);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
 .about-section {
   animation: slideInUp 0.8s ease-out;
 }
@@ -153,4 +169,3 @@
     padding: 1rem;
   }
 }
-

@@ -167,7 +167,7 @@ const Projects = () => {
     <div className="projects section">
       <SEO
         title="Projects"
-        description="Explore the engineering projects of Rusith Heshan, including AI engines, offline assistants, IoT systems, and games. Showcasing innovation in robotics and software."
+        description="Explore the engineering projects of Rusith Welisara, including AI engines, offline assistants, IoT systems, and games. Showcasing innovation in robotics and software."
         url="/projects"
       />
       <div className="container">
