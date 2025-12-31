@@ -1,3 +1,4 @@
+import SEO from '../components/SEO'
 import './Projects.css'
 
 const Projects = () => {
@@ -164,6 +165,11 @@ const Projects = () => {
 
   return (
     <div className="projects section">
+      <SEO
+        title="Projects"
+        description="Explore the engineering projects of Rusith Heshan, including AI engines, offline assistants, IoT systems, and games. Showcasing innovation in robotics and software."
+        url="/projects"
+      />
       <div className="container">
         <h2 className="section-title">Projects</h2>
         <p className="section-subtitle">

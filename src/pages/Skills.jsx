@@ -1,3 +1,4 @@
+import SEO from '../components/SEO'
 import './Skills.css'
 
 const Skills = () => {
@@ -18,6 +19,11 @@ const Skills = () => {
 
   return (
     <div className="skills section">
+      <SEO
+        title="Skills"
+        description="Technical expertise of Rusith Heshan in AI/ML, Robotics, Software Engineering, and System Architecture. Discover his unique approach to building complex systems."
+        url="/skills"
+      />
       <div className="container">
         <h2 className="section-title">Skills</h2>
 
@@ -26,8 +32,8 @@ const Skills = () => {
             <h3 className="subsection-title">Technical Skills</h3>
             <div className="skills-grid">
               {Object.entries(technicalSkills).map(([category, items], index) => (
-                <div 
-                  key={category} 
+                <div
+                  key={category}
                   className="skill-category"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
@@ -46,8 +52,8 @@ const Skills = () => {
             <h3 className="subsection-title">What I'm Known For</h3>
             <div className="known-for-list">
               {knownFor.map((item, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="known-for-item"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
