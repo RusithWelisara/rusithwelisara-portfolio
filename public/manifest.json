@@ -1,0 +1,16 @@
+{
+    "name": "Rusith Heshan Portfolio",
+    "short_name": "Rusith Portfolio",
+    "description": "Building AI Systems, Robots & Platforms. Explore my projects in AI, Robotics, and Software Engineering.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a0a",
+    "theme_color": "#00ffff",
+    "icons": [
+        {
+            "src": "/vite.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+}

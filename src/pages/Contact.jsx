@@ -1,3 +1,4 @@
+import SEO from '../components/SEO'
 import './Contact.css'
 
 const Contact = () => {
@@ -7,13 +8,18 @@ const Contact = () => {
 
   return (
     <div className="contact section">
+      <SEO
+        title="Contact"
+        description="Get in touch with Rusith Heshan for collaborations in AI, robotics, and platform architecture. Let's build something incredible together."
+        url="/contact"
+      />
       <div className="container">
         <h2 className="section-title">Contact</h2>
 
         <div className="contact-content">
           <div className="contact-intro">
             <p className="contact-text">
-              Let's build something incredible together. Whether it's AI systems, robotics projects, 
+              Let's build something incredible together. Whether it's AI systems, robotics projects,
               or platform architecture—I'm always open to collaboration and interesting opportunities.
             </p>
           </div>
@@ -33,9 +39,9 @@ const Contact = () => {
               <div className="contact-icon">💻</div>
               <div className="contact-details">
                 <h4 className="contact-label">GitHub</h4>
-                <a 
-                  href="https://github.com/RusithWelisara" 
-                  target="_blank" 
+                <a
+                  href="https://github.com/RusithWelisara"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="contact-link"
                 >

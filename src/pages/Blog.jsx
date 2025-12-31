@@ -1,3 +1,4 @@
+import SEO from '../components/SEO'
 import './Blog.css'
 
 const Blog = () => {
@@ -38,6 +39,11 @@ const Blog = () => {
 
   return (
     <div className="blog section">
+      <SEO
+        title="Blog"
+        description="Insights from Rusith Heshan on AI experiments, robotics devlogs, system architecture, and product design philosophy."
+        url="/blog"
+      />
       <div className="container">
         <h2 className="section-title">Blog</h2>
 
@@ -46,8 +52,8 @@ const Blog = () => {
             <h3 className="subsection-title">Categories</h3>
             <div className="categories-grid">
               {categories.map((category, index) => (
-                <div 
-                  key={index} 
+                <div
+                  key={index}
                   className="category-card"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
@@ -61,8 +67,8 @@ const Blog = () => {
             <h3 className="subsection-title">Recent Posts</h3>
             <div className="posts-grid">
               {samplePosts.map((post, index) => (
-                <article 
-                  key={index} 
+                <article
+                  key={index}
                   className="post-card"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
