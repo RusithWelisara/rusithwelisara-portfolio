@@ -18,7 +18,7 @@ const Goals = () => {
     <div className="goals section">
       <SEO
         title="Goals"
-        description="Future ambitions and short-term goals of Rusith Heshan, focusing on AI automation, game engines, and planetary-scale systems."
+        description="Future ambitions and short-term goals of Rusith Welisara, focusing on AI automation, game engines, and planetary-scale systems."
         url="/goals"
       />
       <div className="container">

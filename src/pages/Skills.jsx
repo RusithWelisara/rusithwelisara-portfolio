@@ -21,7 +21,7 @@ const Skills = () => {
     <div className="skills section">
       <SEO
         title="Skills"
-        description="Technical expertise of Rusith Heshan in AI/ML, Robotics, Software Engineering, and System Architecture. Discover his unique approach to building complex systems."
+        description="Technical expertise of Rusith Welisara in AI/ML, Robotics, Software Engineering, and System Architecture. Discover his unique approach to building complex systems."
         url="/skills"
       />
       <div className="container">

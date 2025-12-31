@@ -21,10 +21,10 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <span className="logo-text">RH</span>
+          <span className="logo-text">RW</span>
         </Link>
-        
-        <button 
+
+        <button
           className="mobile-menu-toggle"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
@@ -36,8 +36,8 @@ const Navbar = () => {
 
         <ul className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
           <li>
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className={isActive('/') ? 'active' : ''}
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -45,8 +45,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link 
-              to="/about" 
+            <Link
+              to="/about"
               className={isActive('/about') ? 'active' : ''}
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -54,8 +54,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link 
-              to="/projects" 
+            <Link
+              to="/projects"
               className={isActive('/projects') ? 'active' : ''}
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -63,8 +63,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link 
-              to="/skills" 
+            <Link
+              to="/skills"
               className={isActive('/skills') ? 'active' : ''}
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -72,8 +72,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link 
-              to="/goals" 
+            <Link
+              to="/goals"
               className={isActive('/goals') ? 'active' : ''}
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -81,8 +81,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link 
-              to="/blog" 
+            <Link
+              to="/blog"
               className={isActive('/blog') ? 'active' : ''}
               onClick={() => setMobileMenuOpen(false)}
             >
@@ -90,8 +90,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className={isActive('/contact') ? 'active' : ''}
               onClick={() => setMobileMenuOpen(false)}
             >

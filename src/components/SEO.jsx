@@ -1,10 +1,10 @@
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, keywords, image, url, type = 'website' }) => {
-  const siteTitle = 'Rusith Heshan';
+  const siteTitle = 'Rusith Welisara';
   const fullTitle = `${title} | ${siteTitle}`;
-  const siteUrl = 'https://rusith-heshan-portfolio.pages.dev';
-  const defaultDescription = 'Portfolio of Rusith Heshan, an engineer building AI systems, robots, and advanced digital platforms.';
+  const siteUrl = 'https://rusith-welisara-portfolio.pages.dev';
+  const defaultDescription = 'Portfolio of Rusith Welisara, an engineer building AI systems, robots, and advanced digital platforms.';
   const defaultImage = '/og-image.png';
 
   const seo = {
@@ -42,9 +42,9 @@ const SEO = ({ title, description, keywords, image, url, type = 'website' }) => 
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Rusith Heshan",
+          "name": "Rusith Welisara",
           "url": siteUrl,
-          "image": `${siteUrl}/avatar.png`,
+          "image": `${siteUrl}/image.png`,
           "jobTitle": "AI & Robotics Engineer",
           "sameAs": [
             "https://github.com/RusithWelisara",
