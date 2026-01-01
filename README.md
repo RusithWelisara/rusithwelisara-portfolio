@@ -47,6 +47,3 @@ npm run build
 
 ---
 *© 2025 Rusith Welisara. Built with precision and future-focus.*
-
-
-
