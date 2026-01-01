@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 const SEO = ({ title, description, keywords, image, url, type = 'website' }) => {
   const siteTitle = 'Rusith Welisara';
   const fullTitle = `${title} | ${siteTitle}`;
-  const siteUrl = 'https://rusith-welisara-portfolio.pages.dev';
+  const siteUrl = 'https://rusithwelisara.vercel.app';
   const defaultDescription = 'Portfolio of Rusith Welisara, an engineer building AI systems, robots, and advanced digital platforms.';
   const defaultImage = '/og-image.png';
 
