@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rusith-heshan-portfolio.pages.dev/sitemap.xml
+Sitemap: https://rusithwelisara.vercel.app/sitemap.xml
