@@ -46,6 +46,10 @@ const Home = () => {
 
         <div className="hero-content">
           <div className="hero-text">
+            <div className="hero-intro">
+              <span className="greeting">Hi, I'm</span>{' '}
+              <h2 className="name-highlight">Rusith Welisara</h2>
+            </div>
             <h1 className="hero-title">
               <span className="gradient-text">Building AI Systems, Robots & Platforms</span>
               <br />
