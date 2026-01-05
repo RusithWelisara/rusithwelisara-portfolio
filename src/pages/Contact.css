@@ -129,17 +129,24 @@
 }
 
 @media (max-width: 768px) {
+  .contact {
+    padding-top: 80px;
+  }
+
   .contact-info {
     grid-template-columns: 1fr;
   }
 
   .contact-text {
     font-size: 1.1rem;
+    padding: 0 1rem;
+    /* Ensure text doesn't touch edges if container padding isn't enough */
   }
 
   .collaborate-btn {
     font-size: 1.1rem;
     padding: 1rem 2rem;
+    width: 100%;
+    /* Full width button on mobile */
   }
 }
-

@@ -268,12 +268,21 @@
 }
 
 @media (max-width: 768px) {
+  .projects {
+    padding-top: 80px;
+  }
+
   .project-title {
     font-size: 1.5rem;
   }
 
   .project-header {
     flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
   }
 
   .project-description {
@@ -286,10 +295,23 @@
 
   .project-cta {
     flex-direction: column;
+    gap: 1rem;
   }
 
   .cta-btn {
     width: 100%;
     min-width: unset;
+    justify-content: center;
+    /* Center content in full-width buttons */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    padding: 1.25rem;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
   }
 }
