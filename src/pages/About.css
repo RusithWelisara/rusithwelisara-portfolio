@@ -156,6 +156,10 @@
 }
 
 @media (max-width: 768px) {
+  .about {
+    padding-top: 80px;
+  }
+
   .subsection-title {
     font-size: 1.5rem;
   }
@@ -164,8 +168,38 @@
     font-size: 1rem;
   }
 
+  .about-profile {
+    margin-bottom: 2rem;
+  }
+
+  .about-photo {
+    width: 200px;
+    height: 200px;
+    border-width: 2px;
+  }
+
   .quote {
     font-size: 1.1rem;
-    padding: 1rem;
+    padding: 1.25rem;
+  }
+
+  .quote::before {
+    font-size: 3rem;
+  }
+
+  .goals-list li {
+    flex-direction: column;
+    /* Stack bullet and content if needed, or keep row */
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .goals-list li {
+    padding: 0.75rem;
+  }
+
+  .bullet {
+    font-size: 1.2rem;
   }
 }

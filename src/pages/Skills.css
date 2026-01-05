@@ -123,8 +123,13 @@
 }
 
 @media (max-width: 768px) {
+  .skills {
+    padding-top: 80px;
+  }
+
   .skills-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .known-for-list {
@@ -132,7 +137,7 @@
   }
 
   .category-title {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .item-text {
@@ -140,3 +145,17 @@
   }
 }
 
+@media (max-width: 480px) {
+  .skill-category {
+    padding: 1.25rem;
+  }
+
+  .skill-tags {
+    gap: 0.5rem;
+  }
+
+  .skill-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
+}

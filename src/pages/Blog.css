@@ -141,6 +141,10 @@
 }
 
 @media (max-width: 768px) {
+  .blog {
+    padding-top: 80px;
+  }
+
   .categories-grid {
     grid-template-columns: 1fr;
   }
@@ -152,5 +156,8 @@
   .post-title {
     font-size: 1.3rem;
   }
-}
 
+  .post-card {
+    padding: 1.5rem;
+  }
+}

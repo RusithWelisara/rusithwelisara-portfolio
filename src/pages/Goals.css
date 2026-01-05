@@ -92,6 +92,10 @@
 }
 
 @media (max-width: 768px) {
+  .goals {
+    padding-top: 80px;
+  }
+
   .goals-list {
     grid-template-columns: 1fr;
   }
@@ -106,4 +110,3 @@
     font-size: 1rem;
   }
 }
-
